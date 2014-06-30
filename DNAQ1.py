@@ -29,3 +29,5 @@ for i in dataIn.read():
         nG = nG + 1
 
 print '%i %i %i %i \n' %(nA, nC, nG, nT)
+
+dataIn.close()
